@@ -1,0 +1,10 @@
+﻿using minimal_api.Dominio.DTOs;
+using minimal_api.Dominio.Entidades;
+
+namespace minimal_api.Dominio.Interface
+{
+    public interface IAdministradorServico
+    {
+        Administrador? Login(LoginDto loginDto);
+    }
+}
